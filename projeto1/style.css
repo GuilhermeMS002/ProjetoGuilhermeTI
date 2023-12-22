@@ -8,6 +8,7 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
 }
 
 h1, h2 {
@@ -20,7 +21,7 @@ p, a, li {
 }
 
 body {
-    background-color: wheat;
+    background-image: linear-gradient(to top, #F5C031, #F398A9, #5567A0 );
 }
 
 header img {
@@ -28,14 +29,25 @@ header img {
    
 }
 
+
+
+
 .info {
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: #6CB0C5;
     height: 250px;
     margin-bottom: 50px;
     padding: 0px 10px;
     height: auto;
+}
+
+header > h1 {
+    color: #F5C031;
+}
+
+header > h2 {
+    background-color: #F5C031;
 }
 
 .info > p {
@@ -48,7 +60,7 @@ header img {
 main {
     max-width: 1250px;
     width: auto;
-    background-color: #fff;
+    background-color: #6CB0C5;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
@@ -56,9 +68,16 @@ main {
     
 }
 
+
+
 main img {
-    border: 2px solid gray;
-    background-color: gray;
+    border: 2px solid #4A5FA4;
+    background-color: #4A5FA4;
+}
+
+footer > h2 {
+    text-align: left;
+    text-indent: 1.5em;
 }
 
 .quadrado {
@@ -69,9 +88,10 @@ main img {
 }
 
 .tamfoto {
-    width: 1050px;
+    max-width: 1000;
     margin: auto;
     text-align: center;
+    width: auto;
 }
 .linque {
     width: 100px;
@@ -87,3 +107,4 @@ main img {
     font-size: 2em;
     font-weight: bold;
 }
+
