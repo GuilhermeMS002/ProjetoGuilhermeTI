@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 
+
+  
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,21 +25,40 @@ body {
 
 header img {
     border-radius: 100px;
+   
+}
 
-    
+.info {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    height: 250px;
+    margin-bottom: 50px;
+    padding: 0px 10px;
+    height: auto;
+}
+
+.info > p {
+    padding: 0px 1em;
+    text-align: justify;
+    text-indent: 0.5cm;
+     
 }
 
 main {
-    width: 1200px;
+    max-width: 1250px;
+    width: auto;
     background-color: #fff;
-    align-content: center;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
+    
 }
 
 main img {
-    border: 10px;
+    border: 2px solid gray;
+    background-color: gray;
 }
 
 .quadrado {
@@ -44,4 +66,24 @@ main img {
 }
 .reta {
     padding: 0px 50px;
+}
+
+.tamfoto {
+    width: 1050px;
+    margin: auto;
+    text-align: center;
+}
+.linque {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.linque > a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
 }
